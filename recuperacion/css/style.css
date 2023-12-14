@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#carrito, #productos {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#listaCarrito, #listaProductos {
+    list-style: none;
+    padding: 0;
+}
+
+#listaCarrito li, #listaProductos li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+    color: red;
+}
